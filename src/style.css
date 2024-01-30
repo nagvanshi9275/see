@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.liz{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+
+.Baap{
+
+height: 80vh;
+
+display: grid;
+grid-template-rows: repeat(4, 0.2fr);
+justify-content: center;
+align-items: center;
+border: 2px solid red;
+
+}
+
+
+
+
+@media (max-width: 400px){
+
+
+    .Baap{
+     height: 90vh;
+     border: 0px;
+
+
+
+
+    }
+
+    #password{
+
+  width: 70vw;
+  height: 8vh;
+ font-size: 4.5rem;
+
+    }
+
+
+    .btn{
+    width: 100%;
+    height: 10vh;
+   font-size: 4.5rem;
+
+
+    }
+
+    .google{
+     font-size: 4.5rem;
+     
+
+
+    }
+
+
+}
+
+
+
